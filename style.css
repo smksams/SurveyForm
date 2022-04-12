@@ -1,0 +1,130 @@
+body {
+  background-image: url("assets/pc-unsplash.jpg");
+  color: azure;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.container {
+  margin: 5rem 9rem;
+}
+
+span {
+  font-size: 1.44rem;
+}
+
+/*========= HEADER =============*/
+
+header {
+  text-align: center;
+  font-size: 1.8rem;
+  margin-top: 5rem;
+}
+
+header p {
+  font-weight: 200;
+  font-style: italic;
+  color: var(--green);
+}
+
+/*========== MAIN ============*/
+
+#title {
+  font-size: 3.2rem;
+}
+
+.form-control {
+  width: 100%;
+  height: 4rem;
+  border-radius: 1rem;
+  padding-left: 1rem;
+  margin-bottom: 1.25rem;
+}
+
+form { 
+  display: block;
+  padding: 2.5rem;
+  background-color: var(--bg-color);
+  border-radius: 1rem;
+}
+
+.form-group {
+  font-size: 1.8rem;
+}
+
+label {
+  display: flex;
+  align-items: center;
+}
+
+span {
+  margin-left: 0.5rem;
+}
+
+textarea {
+  min-height: 12rem;
+  width: 100%;
+  resize: vertical;
+  padding: 1rem;
+  color: var(--yellow);
+}
+
+.submit-button {
+  margin-top: 1rem;
+  width: 100%;
+  color: var(--green);
+  height: 4rem;
+  border-radius: 1rem;
+}
+
+option {
+  color: var(--yellow);
+}
+
+label.alternative{
+  color: var(--green);
+}
+
+label, p{
+  margin-bottom: 1rem;
+}
+
+input, button, select, textarea {
+  font-family: inherit;
+  font-size: inherit;
+  color: var(--green);
+  background-color: var(--bg-color);
+}
+select {
+  color: var(--green);
+}
+
+select:hover,
+input:hover,
+textarea:hover,
+button:hover {
+  color: var(--yellow);
+  outline: 1px solid var(--green);
+}
+
+input:focus {
+  outline: 1px solid var(--green);
+}
+
+input.radio:hover,
+input.checkbox:hover {
+  outline: 1px solid var(--yellow);
+  border: none;
+}
+
+input:hover::placeholder,
+textarea:hover::placeholder {
+  color: var(--yellow);
+}
+
+footer {
+  text-align: center;
+  font-size: 1.8rem;
+  font-weight: 400;
+}
